@@ -1,0 +1,91 @@
+body {
+  background-color: #e8f900;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+
+.centro > h1 {
+  color: #000;
+  font-family: "Paytone One", sans-serif;
+}
+#cabecalho {
+  width: 15%;
+  float: right;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  line-height: 50px;
+  text-decoration: none;
+  margin: 0;
+}
+.link1,
+.link2 {
+  text-decoration: none;
+  color: #000;
+  margin-right: -20px;
+}
+.link1:hover {
+  text-decoration: underline;
+}
+.link2:hover {
+  text-decoration: underline;
+}
+.icone1,
+.icone2 {
+  margin-right: -27px;
+}
+.centro {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 35px;
+}
+.centro h1,
+.centro input {
+  margin-bottom: 20px;
+}
+button {
+  display: flex;
+  align-items: center;
+  width: 12.4%;
+  height: 4.3vh;
+  float: right;
+  position: fixed;
+  bottom: 15px;
+  right: 17px;
+  border-radius: 20px;
+  background-color: #d7e32c;
+  border: 0.1px solid rgba(128, 112, 112, 0.124);
+  padding: 10px;
+  font-family: Roboto, "Ubuntu", Arial, sans-serif;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
+}
+button:hover {
+  transform: scale(1);
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.1s;
+  background-color: #00000028;
+}
+input {
+  border-radius: 20px;
+  width: 550px;
+  height: 5vh;
+  border: 0.1px solid rgba(128, 112, 112, 0.124);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url(./assets/lupa.svg);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position-x: calc(100% - 24px);
+  background-position-y: 50%;
+  outline: 0;
+}

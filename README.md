@@ -11,7 +11,7 @@ Clone do Google com as cores e logo da instituição de ensino UNIASSELVI
 <br>
 
 <p align="center">
-  <img alt="Projeto Uniasselvi" src="..github/preview.png" width="100%">
+  <img alt="Projeto Uniasselvi" src=".github/preview" width="100%">
 </p>
 
 ## 🚀 Tecnologias
